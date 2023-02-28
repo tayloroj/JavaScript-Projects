@@ -27,3 +27,7 @@ var Son = Son.fontcolor("yellow")
 document.write(Mom)
 
 document.write(3+3); //----Assignment #12, Example of an expression----//
+
+function myFunction() {  //----Challenge #2, the css function for an HTML event----//
+    alert("Welcome to my examples of CSS!")
+}
