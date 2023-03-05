@@ -9,3 +9,11 @@ function myFunction() {
     sentence += " a lot from this book!";
     document.getElementById("Concatenate").innerHTML = sentence;//----method used to Concatenate the variables
 }
+
+var x = addFunction(6, 1, 9); //----Challenge #3, Function to compute the product of p1, p2 and p3 ----//
+document.write(x);
+document.getElementById("Calculate").innerHTML = x;
+
+function addFunction(p1, p2, p3) { 
+    return p1 + p2 + p3;
+}
