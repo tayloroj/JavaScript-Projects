@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <script src="JavaScript/JavaScript_1.js" defer></script>        
+    </head>
+    <body>
+       
+    <h1>Who is your favorite MLB team?</h1>
+    <h3>Pick your favorite team from the list:</h3>
+    <ul>
+      <li>New York Yankees</li>
+      <li>Boston Red Sox</li>
+      <li>Chicago Cubs</li>
+      <li>Kansas City Royals</li>
+      <li>San Francisco Giants</li>
+      <li>St. Louis Cardinals</li>
+    </ul>
+    <h3>Enter your choice below:</h3>
+
+    <input id="Team_Input" type="text">
+    <button onclick="Team_Function()">Submit choice</button>
+    <p id="Choice"></p>
+    
+    <h1 class="Click">This text will change!</h1>
+    <h3 class="Click">This text will not change.</h3>
+    <button onclick="Hello_World_Function()">Click me!</button>
+    <br><br>
+
+    <!--The <canvas> element is the container for graphics-->
+    <canvas id="canvasExample" width="400" height="200" style="border:8px dashed red;"></canvas>
+    <br><br>
+
+    <!--The gradient method for use to fill the canvas-->
+    <canvas id="canvasExample2" width="400" height="200" style="border:4px solid black;"></canvas>
+    
+    <!-- The arrow function, used to shorten function. The syntax is '=>' -->
+    <p id="arrow"></p>
+
+    <script>
+      var truck;
+      truck = (val) => "My favorite trucks are: " + val;
+      document.getElementById('arrow').innerHTML = truck("Ford Raptor, Dodge Ram and Chevy 1500");
+    </script>
+
+
+    </body>
+</html>
